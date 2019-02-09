@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">TrainingApp</string>
+    <string name="app_name">TrainingApplication</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="new_traingsrec">New</string>
+    <string name="runName">Run name</string>
+    <string name="runTime">Time</string>
+    <string name="runDate">Date</string>
+    <string name="runFeel">Feel</string>
+    <string name="runKm">Km</string>
 </resources>

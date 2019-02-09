@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TrainingActivity">
+
+    <TextView
+        android:id="@+id/textview_training_runName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test"/>
+
+    <TextView
+        android:id="@+id/textview_training_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_training_runName"
+        android:text="Test"/>
+
+    <TextView
+        android:id="@+id/textview_training_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_training_time"
+        android:text="Test" />
+
+    <TextView
+        android:id="@+id/textview_training_feeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_training_km"
+        android:text="Test"
+        />
+
+    <TextView
+        android:id="@+id/textview_training_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_training_feeling"
+        android:text="Test"
+        />
+
+</RelativeLayout>
