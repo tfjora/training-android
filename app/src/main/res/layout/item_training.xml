@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:textSize="18dp"
+        style="@style/colorTextView"
         />
 
     <TextView
@@ -21,6 +21,6 @@
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@id/textview_main_trainings_runName"
         android:gravity="right"
-        android:textSize="18dp"
+        style="@style/colorTextView"
         />
 </LinearLayout>

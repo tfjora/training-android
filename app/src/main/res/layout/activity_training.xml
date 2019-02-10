@@ -12,6 +12,7 @@
         android:id="@+id/textview_training_runName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="@style/colorTextView"
         android:text="Test"/>
 
     <TextView
@@ -19,6 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textview_training_runName"
+        style="@style/colorTextView"
         android:text="Test"/>
 
     <TextView
@@ -26,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textview_training_time"
+        style="@style/colorTextView"
         android:text="Test" />
 
     <TextView
@@ -33,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textview_training_km"
+        style="@style/colorTextView"
         android:text="Test"
         />
 
@@ -41,6 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textview_training_feeling"
+        style="@style/colorTextView"
         android:text="Test"
         />
 

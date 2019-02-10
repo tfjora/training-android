@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NewTrainingSession">
+
+    <EditText
+        android:id="@+id/edittext_new_training_session_runName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/runName"
+        style="@style/colorEditText"
+        />
+
+    <EditText
+        android:id="@+id/edittext_new_training_session_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/runTime"
+        android:inputType="time"
+        style="@style/colorEditText"
+        android:layout_below="@id/edittext_new_training_session_runName"
+        />
+
+    <EditText
+        android:id="@+id/edittext_new_training_session_km"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/runKm"
+        android:inputType="number"
+        style="@style/colorEditText"
+        android:layout_below="@id/edittext_new_training_session_time"
+        />
+
+    <EditText
+        android:id="@+id/edittext_new_training_session_feeling"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/runFeel"
+        android:inputType="text"
+        style="@style/colorEditText"
+        android:layout_below="@id/edittext_new_training_session_km"
+        />
+
+    <EditText
+        android:id="@+id/edittext_new_training_session_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/runDate"
+        android:inputType="date"
+        style="@style/colorEditText"
+        android:layout_below="@id/edittext_new_training_session_feeling"
+        />
+</RelativeLayout>
