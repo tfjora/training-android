@@ -7,7 +7,7 @@ import android.view.MenuItem;
 
 import no.tfjorstad.trainingapp.R;
 
-public class NewTrainingRecord extends AppCompatActivity {
+public class NewTrainingSession extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

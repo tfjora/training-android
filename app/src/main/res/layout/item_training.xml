@@ -11,7 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:text="test" />
+        android:textSize="18dp"
+        />
 
     <TextView
         android:id="@+id/textview_main_trainings_date"
@@ -20,5 +21,6 @@
         android:layout_alignParentRight="true"
         android:layout_toRightOf="@id/textview_main_trainings_runName"
         android:gravity="right"
-        android:text="test2" />
+        android:textSize="18dp"
+        />
 </LinearLayout>

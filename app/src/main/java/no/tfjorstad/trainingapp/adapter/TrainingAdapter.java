@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -38,6 +39,7 @@ public class TrainingAdapter extends RecyclerView.Adapter<TrainingAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull TrainingAdapter.ViewHolder viewHolder, int position) {
+        final int position2 = position;
         final Training training = trainings.get(position);
         viewHolder.runNameTextView.setText(training.getRunName());
         String dateRun = training.getDateTime().getDayOfMonth() + "." + training.getDateTime().getMonthOfYear() +"." +  training.getDateTime().getYear();
@@ -46,9 +48,9 @@ public class TrainingAdapter extends RecyclerView.Adapter<TrainingAdapter.ViewHo
         viewHolder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, TrainingActivity.class);
+                Intent intent = new Intent(v.getContext(), TrainingActivity.class);
                 intent.putExtra("training", training);
-                context.startActivity(intent);
+                v.getContext().startActivity(intent);
             }
         });
     }

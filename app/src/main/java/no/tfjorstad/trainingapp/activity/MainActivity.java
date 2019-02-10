@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         recyclerView.setAdapter(trainingAdapter);
 
+
     }
 
     @Override
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     private void newTraining() {
-        Intent intent = new Intent(getApplicationContext(), NewTrainingRecord.class);
+        Intent intent = new Intent(getApplicationContext(), NewTrainingSession.class);
         startActivity(intent);
     }
 }
